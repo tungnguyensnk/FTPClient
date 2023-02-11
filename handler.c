@@ -1,7 +1,7 @@
 #include "handler.h"
 
+// hàm xử lý các signal
 void signal_handler(int signum) {
-    printf("Signal: %d\n", signum);
     if (signum == SIGINT) {
         exit(0);
     } else if (signum == SIGCHLD) {

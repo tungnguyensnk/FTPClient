@@ -7,6 +7,8 @@
 #include <stdio.h>
 #include <string.h>
 
+// 127.0.0.1 là ip
+// 8888 là port
 struct ip {
     char ip[1024];
     int port;
